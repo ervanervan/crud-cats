@@ -46,7 +46,7 @@ const HomePage = () => {
     <section>
       <div className="container mx-auto px-4 py-10">
         <div className="flex items-center justify-between mb-5">
-          <h1 className="text-2xl font-medium">Data Kucing</h1>
+          <h1 className="text-2xl font-medium">Cat Data</h1>
           <button
             onClick={handleAddDataClick}
             className="px-4 py-3 rounded-lg bg-gray-50 hover:bg-gray-100 text-black transition-all duration-300"
