@@ -16,7 +16,7 @@ export default function CardData({
         />
         <div className="p-4">
           <h2 className="mb-2 font-medium text-lg">{title}</h2>
-          <p className="line-clamp-2 text-base text-gray-500">{description}</p>
+          <p className="line-clamp-3 text-base text-gray-500">{description}</p>
           <button
             onClick={onClick}
             className="mt-3 px-4 py-2 bg-gray-200 text-gray-500 rounded-md hover:text-gray-600 hover:bg-zinc-300 transition-all duration-300"
